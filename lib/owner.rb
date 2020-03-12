@@ -19,7 +19,7 @@ class Owner
     puts "I am a #{self.species}"
   end
   
-  def self.all
+  def self.count
     Owner.all.count
   end
   
