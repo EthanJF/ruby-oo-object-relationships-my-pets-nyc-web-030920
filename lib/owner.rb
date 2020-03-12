@@ -24,7 +24,7 @@ class Owner
   end
   
   def self.reset_all
-    Owner.all = []
+    Owner.all.clear
   end
   
   def cats
