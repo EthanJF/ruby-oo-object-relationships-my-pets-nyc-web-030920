@@ -16,7 +16,7 @@ class Owner
   end
   
   def say_species
-    "I am a #{self.species}"
+    "I am a #{self.species}."
   end
   
   def self.count
@@ -64,7 +64,7 @@ class Owner
   end
   
   def list_pets
-    "I have #{dogs.count} dog(s) and #{cats.count} cat(s)."
+    "I have #{dogs.count} dog(s), and #{cats.count} cat(s)."
   end
   
   
